@@ -5,6 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Author.destroy_all
+Post.destroy_all
 
 authors = Author.create([{name: "John Grisham", hometown: "Charlottesville, VA"}, { name: " Renyolds Price", hometown: "Macon, NC"}])
 
